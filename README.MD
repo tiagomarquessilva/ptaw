@@ -5,10 +5,10 @@ Este é o repositório relativo ao [PTAW](https://www.ua.pt/estga/uc/5156), inse
 ## Objetivos
 
 Resumidamente, o objetivo deste projeto é construir uma aplicação que utilize tecnologias Web. Para isso foi construida uma aplicação de gestão de máquinas de vending de gás onde:
-    - É possivel CRUD de clientes;
-    - É possivel CRUD de maquinas;
-    - É possivel CRUD de funcionários;
-    - Existe um sistema de tickets.
+- É possivel CRUD de clientes;
+- É possivel CRUD de maquinas;
+- É possivel CRUD de funcionários;
+- Existe um sistema de tickets.
 
 Uma descrição mais detalhada dos requisitos pode ser encontrada na Documentação deste documento. 
 
