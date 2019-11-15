@@ -40,5 +40,5 @@ Uma descrição mais detalhada dos requisitos pode ser encontrada na Documentaç
 Os autores foram os seguintes alunos da Universidade de Aveiro:
 - Hugo Neves (Nº Mec. 88167);
 - João Santos (Nº Mec. 88007);            
-- Luís Batista (Nº Mec. 78387);               
+- Luís Gomes (Nº Mec. 80897);               
 - Tiago Silva (Nº Mec. 87913).     
