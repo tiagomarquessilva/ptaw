@@ -1,0 +1,47 @@
+/*#1ab394*/
+
+.tabulator {
+  border: none;
+  background-color: white;
+}
+
+.tabulator .tabulator-header {
+  border-bottom: 2px solid #1ab394;
+  font-weight: bold;
+  font-size: 13px;
+  color: inherit;
+}
+
+.tabulator-row .tabulator-cell {
+  border: none;
+}
+
+.tabulator .tabulator-tableHolder .tabulator-table {
+  color: inherit;
+}
+.tabulator .tabulator-header .tabulator-col {
+  background-color: #f5f5f6;
+  border-top: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-left: 1px solid #ebebeb;
+}
+
+.tabulator
+  .tabulator-header
+  .tabulator-col.tabulator-sortable[aria-sort="desc"]
+  .tabulator-col-content
+  .tabulator-arrow {
+  border-top: 6px solid #1ab394;
+}
+
+.tabulator
+  .tabulator-header
+  .tabulator-col.tabulator-sortable[aria-sort="asc"]
+  .tabulator-col-content
+  .tabulator-arrow {
+  border-bottom: 6px solid #1ab394;
+}
+
+.tabulator-row.tabulator-selectable:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}

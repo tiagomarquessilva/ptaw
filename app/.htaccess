@@ -1,0 +1,23 @@
+
+# Protect files and directories
+<FilesMatch "(\.(engine|inc|info|install|module|profile|po|sh|.*sql|theme|tpl(\.php)? |xtmpl)|code-style\.pl|Entries.*|Repository|Root|Tag|Template)$">
+	Order allow,deny
+</FilesMatch>
+# Don’t show directory listings
+Options -Indexes
+# Basic rewrite rules, stop unneeded PERL bot, block subversion directories
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteRule ^(.*/)?\.svn/ - [F,L]
+	ErrorDocument 403 "Acesso proibido"
+	RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
+	RewriteRule .* – [F,L]
+</IfModule>
+
+# 1 ---- Establish a custom 404 File not Found page ----
+
+ErrorDocument 404 /ptaw-gr1-2018/botijas/404.php
+
+# 2 ---- Prevent directory file listing in all of your folders ----
+
+IndexIgnore *

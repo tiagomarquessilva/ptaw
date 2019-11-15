@@ -1,0 +1,9 @@
+.botao_aref {
+    width: 100%;
+    text-decoration: none;
+    color: inherit;
+}
+
+.botao_aref:hover {
+    color: inherit;
+}
