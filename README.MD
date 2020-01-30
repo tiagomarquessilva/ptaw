@@ -38,6 +38,7 @@ Uma descrição mais detalhada dos requisitos pode ser encontrada na Documentaç
 ## Autores
 
 Os autores foram os seguintes alunos da Universidade de Aveiro:
+- Ana Castro (Nº Mec. 87908);
 - Hugo Neves (Nº Mec. 88167);
 - João Santos (Nº Mec. 88007);            
 - Luís Gomes (Nº Mec. 80897);               
